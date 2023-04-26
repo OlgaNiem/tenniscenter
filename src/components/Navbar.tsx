@@ -9,7 +9,9 @@ const Navbar = () => {
          <div >
             <nav className={style.nav}>
                 <div>
+                <Link href="/courses">
                     <Image src="/logo2.jpg" alt="Logo" width={60} height={60} />
+                </Link>
                 </div>
                 <ul className={style.navLinks}>
                     <li><Link href="/home">Hem</Link></li>
