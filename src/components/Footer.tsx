@@ -18,8 +18,14 @@ const Footer = () => {
           </div>
     
           <div className={style.copyright}>
-            Copyright 2023 Olha Niemiets
+            <p>Tenniscenter</p>
+            <p>Västerleden 3</p>
+            <p>68630 Jakobstad</p>
+            <p>Tel: +358 44 2362 897</p>
+            <p>tenniscenter.pietarsaari@gmail.com</p>
+            <p>Copyright 2023 Tenniscenter</p>
           </div>
+          
         </div>
       )
 }
